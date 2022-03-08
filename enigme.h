@@ -9,25 +9,16 @@
 
 
 
-/*
-//typedef struct 
+typedef struct 
 {
         SDL_Rect pos ;
         SDL_Surface *enigme[2] ;
 
 
 }enigme;
-*/
 
 
-typedef struct 
-        {
-        SDL_Rect  pos , reponse_pos;
-        
-        SDL_Surface *enigme[2] ;
-        SDL_Surface *reponse[2] , *reponse1[2] , *t , *h;
-        
-        }enigme;
+
 
 
 void initEnigme(enigme *e,char *nonfichier);
