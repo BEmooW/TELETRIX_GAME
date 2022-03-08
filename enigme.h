@@ -10,7 +10,7 @@
 
 
 /*
-typedef struct 
+//typedef struct 
 {
         SDL_Rect pos ;
         SDL_Surface *enigme[2] ;
